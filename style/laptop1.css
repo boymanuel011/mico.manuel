@@ -1,0 +1,50 @@
+@media (min-width:1025px) {
+
+    body {
+        max-width: 1200px;
+    }
+
+    /*-------------Start of Navbar Section-----------*/
+    .nav-navbar {
+        display: flex;
+    }
+
+    .nav-navbar ul {
+        width: 400px;
+    }
+
+    .nav-navbar li {
+        margin-right: 15px
+    }
+
+    /*-------------End of Navbar Section-----------*/
+
+    /*-------------Start of Main Section-----------*/
+
+    .details-head h2 {
+        font-size: 30px;
+    }
+
+    .details-head h1 {
+        font-size: 65px;
+    }
+
+    .details-head h3 {
+        font-size: 35px;
+    }
+
+    .main-details {
+        margin-left: 60px;
+    }
+
+    /*-------------End of Main Section-----------*/
+
+
+
+
+
+
+
+
+
+}

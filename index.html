@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoyManuel</title>
+    <link rel="stylesheet" href="style/mobile1.css">
+    <link rel="stylesheet" href="style/tablet1.css">
+    <link rel="stylesheet" href="style/laptop1.css">
+    <link rel="stylesheet" href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+</head>
+
+<body>
+
+    <div class="main-navbar">
+        <header>
+            <nav class="nav-container">
+                <div class="nav-logo">
+                    <h1>MICO MANUEL</h1>
+                </div>
+                <div id="wrapper">
+                    <div class="icon" onclick="() =>">
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </div>
+                </div>
+                <div class="nav-navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about" class="link-about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <section class="main-home">
+        <div class="main-front">
+            <div class="main-details">
+                <div class="details-head">
+                    <h2>Hello There!</h2>
+                    <h1>I'M Mico Manuel</h1>
+                    <h3>Aspirant <span class="animate">Web Developer</span></h3>
+                </div>
+                <div class="details-body">
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>
+                            <p>Hermosa, Bataan, Philippines 2111</p>
+                        </li>
+                        <li><i class="far fa-envelope"></i>
+                            <p>mhikx_manuel@yahoo.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="details-links">
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/mico-manuel-b27317128/" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/boymanuel011" target="_blank"><i class="fab fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="images/me_03.png" alt="image01">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="main-about">
+        <div class="about-title">
+            <h1>About Me</h1>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/me_06.png" alt="">
+            </div>
+            <div class="about-paragraph">
+                <p>Hello, my name is Mico Manuel from Hermosa, Bataan. I’ve completed my bachelor’s degree at AMA Computer College. Beside this I also completed a full web development bootcamp in which I practice and enhance my web development skills.</p>
+                <h5><a href="My-CV.pdf" download="">Download CV</a></h5>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="main-skills">
+        <div class="skills-title">
+            <h1>Skills</h1>
+        </div>
+        <div class="skills">
+            <div class="skill-bar-1">
+                <ul>
+                    <li>
+                        <h3>HTML5<img src="images/html5.svg"></h3><span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <h3>CSS3<img src="images/css3.svg"></h3><span class="bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <h3>BOOTSTRAP<img src="images/bootstrap.svg"></h3><span class="bar"><span class="bootstrap"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-bar-2">
+                <ul>
+                    <li>
+                        <h3>JAVASCRIPT<img src="images/javascript.svg"></h3><span class="bar"><span
+                                class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <h3>JQUERY<img src="images/jquery-icon.svg"></img> </h3><span class="bar"><span
+                                class="jquery"></span></span>
+                    </li>
+                    <li>
+                        <h3>REACT.JS<img src="images/reactjs.svg"></h3><span class="bar"><span
+                                class="re"></span></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="main-contact">
+        <div class="contact-title">
+            <h1>Message Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form">
+                <form class="forms" action="https://formsubmit.co/mhikx_manuel@yahoo.com" method="POST">
+                    <input type="text" name="_honeypot" style="display:none;">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html#">
+                    <div class="contact-dtls">
+                        <input class="input-1" type="text" name="Name" placeholder="Name" required>
+                        <br>
+                        <input class="input-2" type="email" name="Email" placeholder="Email" required>
+                        <br>
+                        <input class="input-3" type="subject" name="Subject" placeholder="Subject" required>
+                        <br>
+                    </div>
+                    <textarea class="input-4" cols="25" rows="12" name="Message" placeholder="Your Message"
+                        required></textarea>
+                    <button class="btn" type="submit" onclick="">Send Message</button>
+                </form>
+            </div>
+
+
+            <div class="contact-location" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.9962169418486!2d120.4824617259924!3d14.82547043853216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339668672d7ed989%3A0xc374488a77b0363f!2sJudge%20Roman%20Cruz%20Sr.%20(Mandama)%2C%20Hermosa%2C%20Bataan%2C%20Philippines!5e0!3m2!1sen!2sus!4v1641828091202!5m2!1sen!2sus" 
+                width="100%" height="350" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footfer-details">
+                    <h3>Mico Manuel</h3>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="banner"></section>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

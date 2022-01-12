@@ -1,0 +1,138 @@
+@media (min-width:668px) {
+
+    body {
+        max-width: 1024px;
+    }
+
+    /*-------------Start of Navbar Section-----------*/
+    .nav-navbar {
+        display: flex;
+    }
+
+    .nav-navbar-active {
+        position: relative;
+        width: auto;
+    }
+
+    .nav-navbar ul {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 350px;
+        margin-top: 6px;
+        background-color: transparent;
+        border-radius: 15px;
+        align-content: center
+    }
+
+    .nav-navbar li {
+        width: 200px;
+        margin-right: 10px;
+    }
+
+    .icon {
+        display: none;
+        justify-content: flex-end
+    }
+
+    #wrapper {
+        display: none;
+    }
+
+    /*-------------End of Navbar Section-----------*/
+
+    /*-------------Start of Main Section-----------*/
+
+    .details-head h2 {
+        font-size: 25px;
+    }
+
+    .details-head h1 {
+        font-size: 60px;
+    }
+
+    .details-head h3 {
+        font-size: 30px;
+    }
+
+    .main-img {
+        display: flex;
+        justify-content: flex-end
+    }
+
+    /*-------------End of Main Section-----------*/
+
+    /*-------------Start of About Section-----------*/
+
+    .main-about p {
+        font-size: 22px
+    }
+
+    /*-------------End of About Section-----------*/
+
+    /*-------------Start of Skills Section-----------*/
+
+    .skills {
+        display: flex;
+    }
+
+    .skill-bar-1 {
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    .skill-bar-2 {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .skill-bar-1 li {
+        margin-bottom: 20px;
+    }
+
+    .skill-bar-2 li {
+        margin-bottom: 20px;
+    }
+
+    .skill-bar-1 h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .skill-bar-2 h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .skills img {
+        width: 25px;
+    }
+
+    /*-------------End of Skills Section-----------*/
+
+    /*-------------Start of Contact Section-----------*/
+    .contact-content {
+        display: flex;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    #map {
+        height: 400px;
+        width: 100%;
+    }
+
+    .contact-location {
+        padding-left: 15px;
+        padding-top: 10px
+    }
+
+    .contact-location iframe {
+        border-radius: 5px;
+    }
+
+    /*-------------Start of Contact Section-----------*/
+
+}

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\my-server"
+		},
+		{
+			"path": "..\\..\\sample-server"
+		},
+		{
+			"path": "..\\..\\Calculator"
+		},
+		{
+			"path": "..\\..\\WeatherProject"
+		},
+		{
+			"path": "..\\..\\Newsletter-Signup"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "VS Basics"
+	}
+}
