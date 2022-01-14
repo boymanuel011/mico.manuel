@@ -514,6 +514,12 @@
         padding: 5px 10px;
     }
     
+     .footer a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
     /*-------------End of Footer Section-----------*/
     
     /*-------------Start of Success Page-----------*/
